@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Form</title>
+    </head>
+
+   <body>
+      <h2> Form Create </h2>
+	  <form>
+	  
+	    <div>
+		<label for="fullname">Fullname: </label> <input type="text" name="fullname" id="fullname" required>
+	    </div><br>
+		<div>
+		<label for="email">Email: </label> <input type="text" name="email" id="email" required>
+	    </div><br>
+		<div>
+		<label for="password">Password: </label> <input type="text" name="Password" id="Password">
+	    </div><br>
+		<div>
+		<label for="dob">Date: </label> <input type="date" name="dob" id="dob">
+	    </div><br>
+		<div>
+		<label for="Photo">Photo: </label> <input type="file" name="photo" id="photo">
+	    </div><br>
+		<div>
+		<label for="Gender">Gender: </label> <input type="radio" name="Gender" id="Gender" value="male"> male
+	    <input type="radio" name="Gender" id="Gender" value="female"> female
+	    <input type="radio" name="Gender" id="Gender" value="other"> other
+	    
+		</div><br>
+		
+		<div>
+		<label  for="religion">Religion: </label> <input checked type="checkbox" name="r1" id="religion" value="muslim">muslim
+	    <input  type="checkbox" name="r2" id="religion" value="hindu"> hindu
+	    <input type="checkbox" name="r3" id="religion" value="boddho"> boddho
+		</div><br>
+		
+		<div>
+		     <label for="Department"> Department: </label>
+			 <select name="department">
+			  <option vale="CSE"> CSE </option>
+			  <option vale="EEE" selected> EEE </option>
+			  <option vale="ECE"> ECE </option>
+			 </select>
+			 
+		</div><br>
+		
+		<div>
+		    <label for="Massage"> Massage : </label><br>
+			<textarea cols="40' rows="30"></textarea>
+		</div>
+		
+		<div>
+		<input type="submit" value="Register">
+		<input type="reset" value="RESET">
+		</div>
+		
+	  </form>
+        
+ </body>
+</html>
